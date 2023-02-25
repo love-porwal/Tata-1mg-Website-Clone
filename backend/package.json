@@ -8,7 +8,7 @@
     "start": "nodemon src/index"
   },
   "keywords": [],
-  "author": "love porwal",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
