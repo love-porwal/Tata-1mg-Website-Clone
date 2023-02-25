@@ -37,18 +37,18 @@ app.post("/login", login);
 
 app.get("/", async(req, res)=>{
   try{
-    return res.send("your server is live on heroku")
+    return res.send("Welcome to Login Page")
   }
   catch(err){
     return res.send(err.message);
   }
 })
 
-const port = process.env.PORT || 8080;
+const port = process.env.port;
 app.listen(port, async () => {
     try{
         await connect();
-        console.log("listening on port 8080");
+        console.log(`server is running at port ${port}`);
     }catch(err){
       console.log(err.message);
     }
