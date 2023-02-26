@@ -3,5 +3,5 @@ document.getElementById("login_span").addEventListener("click", function () {
 });
 document.querySelector("form").addEventListener("submit", function (event) {
   event.preventDefault();
-  document.getElementById("error").textContent = "Invalid email address.";
+  document.getElementById("error").textContent = "Invalid Email Address.";
 });

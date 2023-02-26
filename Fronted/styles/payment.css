@@ -1,5 +1,5 @@
 body{
-    margin: 0%;
+    /* margin: 0%; */
     background: whitesmoke;
     font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
 }
@@ -15,6 +15,7 @@ body{
 }
 #mg_home{
    cursor: pointer;
+   height: 55px;
 }
 #need_help{
    cursor: pointer;
@@ -40,7 +41,7 @@ body{
    width: 60%;
 }
 #payment_footer>div>p{
-   font-size: 11px;
+   font-size: 14px;
    color: lightslategray;
 }
 #payment_footer>div>p>span{
@@ -80,8 +81,11 @@ body{
     margin-bottom: 20px;
 }
 #card_details>div>p{
-    font-size: 10px;
+    font-size: 14px;
     color: darkgray;
+}
+p{
+   font-size: 14px;
 }
 #card_details>div>input{
     border: none;
@@ -96,7 +100,7 @@ body{
     width: 50%;
 }
 #date_code>div>p{
-    font-size: 10px;
+    font-size: 14px;
     color: darkgray;
 }
 #date_code>div>input{
@@ -137,7 +141,7 @@ height: 25px;
 
 
 #price_summary{
-   width: 30%;
+   width: 40%;
    margin-left: 2%;
 }
 #price_summary>div{

@@ -3,7 +3,7 @@ var cartItemsArr = JSON.parse(localStorage.getItem("cart_data")) || [];
 if (cartItemsArr.length == 0) {
   let div = document.createElement("div");
   let img = document.createElement("img");
-  img.src = "images/empty-cart-icon.svg";
+  img.src = "/images/empty-cart-icon.svg";
   let h3 = document.createElement("h3");
   h3.textContent = "Oops!";
   let p = document.createElement("p");

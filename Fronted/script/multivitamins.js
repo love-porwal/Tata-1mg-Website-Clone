@@ -75,13 +75,13 @@ async function multi(){
      });
      }
      
-     function showproduct(data){
+          function showproduct(data){
          localStorage.setItem('mg_base',JSON.stringify(data));
          window.location.href="productPage.html"
      }
 
 
-    //  filter low to bhigh price
+    //  filter low to high price
      document.querySelector(".low").addEventListener("click",function (){
         sort_price(mg_data);
     
@@ -90,7 +90,7 @@ async function multi(){
         document.querySelector("#all_products").innerHTML=null
           mg_data.sort(function(a,b){
               return Number(a.price)-Number(b.price);
-            //  console.log(a.price)
+              console.log(a.price)
           })
           displaymg(mg_data); 
       }  
@@ -138,7 +138,7 @@ async function multi(){
 
 
 
-             //  filter low to bhigh rating
+             //  filter low to high rating
      document.querySelector(".rating_low").addEventListener("click",function (){
         sort_price(mg_data);
     

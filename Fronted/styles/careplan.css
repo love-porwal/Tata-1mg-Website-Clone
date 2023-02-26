@@ -8,5 +8,22 @@
 #eleven,
 #twelve {
   width: 100%;
-  margin-top: 30px;
+  margin-top: 20px;
+}
+#five,
+#six,
+#seven,
+#eight,
+#nine,
+#ten,
+#eleven,
+#twelve {
+  margin-top: -38px;
+}
+#eight{
+  margin-top: -100px;
+  margin-bottom: 40px;
+}
+#eleven{
+  margin-top: -15px;
 }

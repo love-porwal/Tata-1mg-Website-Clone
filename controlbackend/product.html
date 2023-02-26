@@ -4,56 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product_Entry</title>
+    <title>DAWAI WALA | Admin</title>
+    <link rel="icon" href="/images/logo.jpg" />
     <style>
+      body {
+        background-color:rgb(201, 111, 111)
+      }
       #container{
           display: flex;
           margin-left: 20px;
+          padding-bottom: 50px;
+          background-color: rgb(238, 162, 162);
+          color: rgb(26, 25, 25);
+          font-weight: bold;
+          border-radius: 10px;
       }
       #container>div{
-          margin-left: 50px;
+          margin: auto;
+          margin-top: 20px;
       }
       #display>div{
           width: 95%;
           margin: auto;
-         background: lightskyblue;
+         background: rgb(238, 162, 162);
+         color: rgb(26, 25, 25);
          margin-top: 10px;
-         border: indianred 2px solid;
+         font-weight: bold;
          padding: 10px;
+         border-radius: 10px;
       }
       #display>div>p{
         word-wrap: break-word;
       }
+      h1{
+        text-align: center;
+        color: blueviolet;
+        border-bottom: 1px solid black;
+      }
+      button {
+        background-color: red;
+        color: white;
+        padding: 10px;
+        margin: 10px 20px;
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+      }
+      button:hover {
+      background-color: green;
+      }
     </style>
 </head>
 <body>
-    
+  <h1 style="color: yellowgreen;">Admin Panal</h1>
  <div id="container">
     <div>
         <h1>Post Product</h1>
-        <label for="">Product_name</label><br><br>
-        <input type="text" id="prd_name"><br><br>
-        <label for="">Product_image</label><br><br>
-        <input type="text" id="prd_img"><br><br>
-        <label for="">rating</label><br><br>
-        <input type="text" id="rating"><br><br>
-        <label for="">price</label><br><br>
-        <input type="text" id="price"><br><br>
-        <label for="">Afterdiscount_price</label><br><br>
-        <input type="text" id="dis_price"><br><br>
-        <label for="">package_type</label><br><br>
-        <input type="text" id="pck_type"><br><br>
-        <label for="">discount_percentage</label><br><br>
-        <input type="text" id="dis_perc"><br><br>
-        <label for="">category</label><br><br>
-        <select id='category'>
+        <label for="" ">Product_name</label><br><br>
+        <input type="text" placeholder="Enter Product Name" id="prd_name"><br><br>
+        <label for="" >Product_image</label><br><br>
+        <input type="text" id="prd_img" placeholder="Enter Product Url"><br><br>
+        <label for="" >Rating</label><br><br>
+        <input type="text" placeholder="Enter Product Rating" id="rating"><br><br>
+        <label for="" >Price</label><br><br>
+        <input type="text" id="price" placeholder="Enter Product Price"><br><br>
+        <label for="" >Afterdiscount_price</label><br><br>
+        <input type="text" id="dis_price" placeholder="Enter Product dis_price"><br><br>
+        <label for="" >Package_type</label><br><br>
+        <input type="text" id="pck_type" placeholder="Enter Product type"><br><br>
+        <label for="" >Discount_percentage</label><br><br>
+        <input type="text" id="dis_perc" placeholder="Enter Product offer %"><br><br>
+        <label for="" >Category</label><br><br>
+        <select id='category' >
+          <option>Select Product Category</option>
            <option value="Multivitamins">Multivitamins</option>
             <option value=">Vitamins A-Z">Vitamins A-Z</option> 
             <option value="Mineral Supplements">Mineral Supplements</option> 
             <option value="ayurved">ayurved</option> 
         </select><br><br>
         <label for="">Product_highlight</label><br><br>
-        <input type="text" id="prd_highlight"><br><br>
+        <input type="text" id="prd_highlight" placeholder="Enter Product keyPoint" ><br><br>
         <button id="btn" onclick="productpost()">Submit</button>
        </div>
 
@@ -61,30 +92,31 @@
         <h1>Update Product</h1>
 
         <label for="">Product_ID</label><br><br>
-        <input type="text" id="u_id"><br><br>
+        <input type="text" id="u_id" placeholder="Enter Product ID"><br><br>
         <label for="">Product_name</label><br><br>
-        <input type="text" id="u_prd_name"><br><br>
+        <input type="text" id="u_prd_name" placeholder="Enter Product Name"><br><br>
         <label for="">Product_image</label><br><br>
-        <input type="text" id="u_prd_img"><br><br>
-        <label for="">rating</label><br><br>
-        <input type="text" id="u_rating"><br><br>
-        <label for="">price</label><br><br>
-        <input type="text" id="u_price"><br><br>
+        <input type="text" id="u_prd_img" placeholder="Enter Product Url"><br><br>
+        <label for="">Rating</label><br><br>
+        <input type="text" id="u_rating" placeholder="Enter Product Rating"><br><br>
+        <label for="">Price</label><br><br>
+        <input type="text" id="u_price" placeholder="Enter Product Price"><br><br>
         <label for="">Afterdiscount_price</label><br><br>
-        <input type="text" id="u_dis_price"><br><br>
-        <label for="">package_type</label><br><br>
-        <input type="text" id="u_pck_type"><br><br>
-        <label for="">discount_percentage</label><br><br>
-        <input type="text" id="u_dis_perc"><br><br>
-        <label for="">category</label><br><br>
+        <input type="text" id="u_dis_price" placeholder="Enter Product dis_price"><br><br>
+        <label for="">Package_type</label><br><br>
+        <input type="text" id="u_pck_type" placeholder="Enter Product type"><br><br>
+        <label for="">Discount_percentage</label><br><br>
+        <input type="text" id="u_dis_perc" placeholder="Enter Product offer %"><br><br>
+        <label for="">Category</label><br><br>
        <select id='u_category'>
+        <option>Select Product Category</option>
           <option value="Multivitamins">Multivitamins</option>
            <option value=">Vitamins">Vitamins A-Z</option> 
            <option value="Mineral Supplements">Mineral Supplements</option>
-           <option value="ayurved">ayurved</option> 
+           <option value="ayurved">Ayurved</option> 
        </select><br><br>
         <label for="">Product_highlight</label><br><br>
-        <input type="text" id="u_prd_highlight"><br><br>
+        <input type="text" id="u_prd_highlight" placeholder="Enter Product keyPoint"><br><br>
         <button id="btn" onclick="updateProduct()">Update</button>
 
        </div>
@@ -93,12 +125,14 @@
         <div>
              <h1>Delete Product</h1>
              <label for="">Product_ID</label><br><br>
-            <input type="text" id="delete_id" placeholder="Enter id to Delete" /></br></br>
+            <input type="text" id="delete_id" placeholder="Enter Product id to Delete" /></br></br>
           
 
             <button onclick="deleteProduct()">Delete</button>
 
         </div>
+
+        
 
         
  </div>
@@ -112,16 +146,16 @@
 </html>
 
 <script>
-    // product();
-    // async function product(){
-    //   try{
-    //       let res = await fetch("http://localhost:2222/products");
-    //       let data = await res.json();
-    //       console.log(data);
-    //   }catch(err){
-    //       console.log(err);
-    //   }
-    // }
+    product();
+    async function product(){
+      try{
+          let res = await fetch("http://localhost:2222/products");
+          let data = await res.json();
+          console.log(data);
+      }catch(err){
+          console.log(err);
+      }
+    }
 
     //postrequest
     async function productpost(){
