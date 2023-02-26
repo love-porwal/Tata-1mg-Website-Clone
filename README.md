@@ -24,15 +24,22 @@
 This is a individual project. I have worked on this project and submitted it for our UNIT-4 construct week project presentation in Masai School.
 
 :star:***MY Details:***:star: 
-  >1. Love Porwal
+ > 1. Love Porwal
    >    - e-Mail: lluvporwall@gmail.com
    >    - GitHub: https://github.com/love-porwal 
+   >    - Netlify-Link: https://stellular-centaur-709264.netlify.app/
+  
 
 # HOME PAGE
 ![homepage](https://user-images.githubusercontent.com/112820391/221426960-3867d2c4-3631-4c2d-8f20-43caef693972.PNG)
 
+# LOGIN PAGE
+![login](https://user-images.githubusercontent.com/112820391/221427790-5a71e349-5659-4aad-81e5-25931987099f.PNG)
 
+# Individual Product Page
+![product](https://user-images.githubusercontent.com/112820391/221427752-9cce415b-a3f8-4275-baa0-836647fe5cdc.PNG)
 
+# Payment Page
 
-
+![payment](https://user-images.githubusercontent.com/112820391/221427824-01e13911-7a24-4f03-a6e1-1405a7db12a9.PNG)
 
