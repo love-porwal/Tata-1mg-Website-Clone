@@ -3,16 +3,16 @@ function navbar() {
   <div class="header">
     <div class="header_first_row">
         <div class="header_first_row_first_section">
-            <div class="logo" onclick="window.location.href = 'index.html'"><img class="logo_image" src="/images/logo.jpg"></img></div>
+            <div class="logo" onclick="window.location.href = './index.html'"><img class="logo_image" src="./images/logo.jpg"></img></div>
             <div class="text_inside_first_header_row" onclick="window.location.href = 'index.html'">MEDICINES</div>
             <div class="text_inside_first_header_row">LAB TESTS</div>
-            <div class="text_inside_first_header_row" onclick="window.location.href = 'AskDoctor.html'">ASK DOCTOR</div>
-            <div class="text_inside_first_header_row" onclick="window.location.href = 'covid.html'">COVID19</div>
-            <div class="text_inside_first_header_row" onclick="window.location.href = 'ayurved.html'">AYURVEDA</div>
-            <div class="text_inside_first_header_row" onclick="window.location.href = 'careplan.html'">CARE PLAN</div>
+            <div class="text_inside_first_header_row" onclick="window.location.href = './AskDoctor.html'">ASK DOCTOR</div>
+            <div class="text_inside_first_header_row" onclick="window.location.href = './covid.html'">COVID19</div>
+            <div class="text_inside_first_header_row" onclick="window.location.href = './ayurved.html'">AYURVEDA</div>
+            <div class="text_inside_first_header_row" onclick="window.location.href = './careplan.html'">CARE PLAN</div>
         </div>
         <div class="header_first_row_second_section">
-            <div class="login_signup"><span id="login_button" onclick="window.location.href = 'login.html'">Login</span> | <span id="signup_button" onclick="window.location.href = 'signup.html'" >Signup</span></div>
+            <div class="login_signup"><span id="login_button" onclick="window.location.href = './login.html'">Login</span> | <span id="signup_button" onclick="window.location.href = './signup.html'" >Signup</span></div>
             <div id="signup_modal" class="modal">
                 <!-- Modal content -->
                     <div class="modal-content">

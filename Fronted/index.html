@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME Page | DAWAI WALA</title>
-    <link rel="icon" href="/images/logo.jpg" />
-    <link rel="stylesheet" href="../styles/footer.css">
-    <link rel="stylesheet" href="../styles/index.css">
-    <link rel="stylesheet" href="../styles/navbar.css">
-    <link rel="stylesheet" href="../styles/mdcn.css">
+    <link rel="icon" href="./images/logo.jpg" />
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/mdcn.css">
 </head>
 <body>
     <div id="navbar"></div>
@@ -107,11 +107,11 @@
 </body>
 </html>
 </html>
-<script src="../script/index.js" ></script>
+<script src="./script/index.js" ></script>
 <script type="module">
-import footer from "../script/footer.js";
+import footer from "./script/footer.js";
 document.getElementById("footer").innerHTML=footer();
-import navbar from "../script/navbar.js";
+import navbar from "./script/navbar.js";
 document.getElementById("navbar").innerHTML=navbar();
 </script>
 
@@ -133,9 +133,7 @@ function findme(){
     else if(searchbar=="multivitamins"){
         window.location.href="./multivitamins.html"
     }
-    else if(searchbar=="vitamins"){
-        window.location.href="./vitamins_A-Z.html"
-    }
+    
     
     
 }
