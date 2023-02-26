@@ -110,6 +110,8 @@ body {
     color: #9E9E9E;
     text-align: center;
     padding: 2%;
+    
+   
 }
 .consult_doc{
     width: 75%;
@@ -120,6 +122,8 @@ body {
     padding: 2%;
     align-items: center;
     margin: auto;
+    margin-bottom: 3px;
+    margin-top: 20px;
 }
 .consult_doc>div{
     display: flex;
@@ -143,7 +147,7 @@ body {
     border: solid black 1px ;
     display: flex;
     margin: auto;
-    margin-top:10% ;
+   margin-top: -350px;
     padding: 2%;
     background-color: #F8F8F8;
 
@@ -174,6 +178,7 @@ body {
 }
 .frequent_ask_q{
     padding: 2%;
+    margin-top: -30px;
 }
 .frequent_ask_q>div>p:nth-child(2){
     color: #616161;

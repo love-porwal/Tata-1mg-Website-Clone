@@ -73,12 +73,12 @@ function footer(){
     <div>social link</div>
     <div id="logo1">
       
-        <div id="facbook"><a href="https://www.facebook.com/1mgOfficial"><img src="	https://www.pngarts.com/files/10/Facebook-Logo-Black-And-White-PNG-Background-Image.png" width="30" height="30px" alt="gvdrf">
+        <div id="facbook"><a href="https://www.facebook.com/1mgOfficial"><img src="	data:image/png;base64,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" width="30" height="30px" alt="gvdrf">
         </a></div>
        
         <div id="twitter"><a href="https://www.twitter.com/1mgOfficial"> <img src="	https://cdn-icons-png.flaticon.com/512/60/60580.png" width="35px"  height="35px"alt=""></a></div> 
         
-        <div id="youtube"><a href="https://www.youtube.com/c/1mgofficial"><img src="	https://www.vectorico.com/download/social_media/youtube-dark-squircle.png" width="30px"  height="30px" alt=""> </a></div>
+        <div id="youtube"><a href="https://www.youtube.com/c/1mgofficial"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIIAAACCCAMAAAC93eDPAAAAb1BMVEX///8RERELCwsMDAwQEBANDQ0ODg4PDw8AAADz8/Otra25ubmMjIwRFBKRkZEEBATIysns7Ow+Pj5JSko3NzcvMTC+v7/Pz8/V19be3t6EhoWam5shIiIbHRxSUlKfoaBnaGh2eHgBDAkjKCZcXV2qb3CfAAADLElEQVR4nO2a2ZaiMBBAJSgUWxZlFUUc/f9vnCDd7TKjqXCSfqr70H36QMilSCpbr1YEQRAEQRAEQRAEQRC/SzKjVNe1bdPImaZt206pr4tua1RtnZ14np/HXVlVVQEo/lyqstxdz3vO+yyTann9XV+xl4cLhkCI50LscG6WGewLZJVGJa0xdAtCUIIIXQjMAKttDdoC3NV/c4DUziCpINSw+cfzr3DJlcmhtVLgjmOg2cDOSsFNO3wiDMGmX6Tug6CB0UJh9KNwxCcpFbj/DjcHfMeUXoKgFc5oBQ/9YVYY0ApXXwolujEMMKeTe755zDvLr4gDdqRIthB6gaEzg6o8KYQgkQrdUZhfaJkCtlc2YKxgmsqEG3uFE1JBmr8DZM0A9p8L9mgFYxSmwV/u9JyMWYUCnZtSRBRu849smllZKYxIhR6Mr/Y9BcoKq8+BnjJoBRP3WVhagTDe/lPsglTgNgqr5HQBhlQQBVohslDQqYyDWXpWCLxE4RaJHFCREDFSIbdW0JHYb4AZg8eYRwWd1s9CJ0x3CobO9T8FvfwZdZvQkXhfTuAVTBGN3iyNuiuEsZsoRCbers5SHYf3/IJCklfsUzH/CukRPhp4V0gZCEMxvwr1ACw2FbNQMD7rVaG9wsd2+K0QIRU4xGsDzwrdGSAOTGU0bI1WWMcGHhXUJLA2Fplg+GHK+Ky7guoPEGGqvylgB+veQiG9gMAKxLHATllOaIWs0t3AAvTELUUqyC2YW81zsRGpIFE9YhoXjfe9FsNO4jEKfG8vEATopUwDkfl9EPf8o1CgF3TdgVk/HqmAXdaq0psCdnGfbIUfhTV+83MAPwoheqNnNULgBYbf7uo9KVhs+klfCti0oLtEsQmCwoOCxcmMn8awsdgG1wOVDwWrw4AEIh8K2MR0g3sIg+XBUFI5d4itzoU07dqxQ4weJX/otsDcCejBPbM10OQX0EtEB/XHbNmBsUal12N0PzEXgr3LV8UX339HYuKn6HG06guvGrLuOc+vu62mxP3vgGa6ezvsOeenul4WgDckd5SUdfZALaW6X3VZKUEQBEEQBEEQBEEQhIm/XBFil4XPQxkAAAAASUVORK5CYII=" width="30px"  height="44px" alt=""> </a></div>
         
         <div id="linkedin"><a href="https://www.linkedin.com/company/1mg"><img src="	https://seeklogo.com/images/L/linkedin-black-icon-logo-ECC426C572-seeklogo.com.png"   width="30px"  height="30px" alt=""></a></div>
      
@@ -89,7 +89,7 @@ function footer(){
    </div>
     
      <div id="app"> <h3> Download App</h3><a href="https://play.google.com/store/apps/details?id=com.aranoah.healthkart.plus">
-        <div class="logo2"><img src="https://www.freepnglogos.com/uploads/app-store-logo-png/apple-app-store-travel-awards-globestamp-7.png" width="160px" height="100px"   alt=""></a></div>
+        <div class="logo2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnWhob1iBWR3HBSoaw0MHL4-mDXEY1QrtaPw&usqp=CAU" width="160px" height="100px"   alt=""></a></div>
 
     </div>
 </div>
@@ -100,19 +100,19 @@ function footer(){
 <div class="box1"> 
     <div class="smallbox" style=" background: url(https://res.cloudinary.com/du8msdgbj/image/upload/v1571132631/secure-rebrand_x6f8yq.svg) no-repeat;"></div>
     <div class="bigbox"><h2> Reliable</h2>
-      <p style="color: #767676;font-size: 12px;line-height: 17px;"> All products displayed on Tata 1mg are procured from verified and licensed pharmacies. All labs listed on the platform are accredited </p> 
+      <p style="color: #767676;font-size: 14px;line-height: 17px;"> All products displayed on Tata 1mg are procured from verified and licensed pharmacies. All labs listed on the platform are accredited </p> 
     </div>
 </div>
 <div class="box1">
     <div class="smallbox" style=" background: url(https://res.cloudinary.com/du8msdgbj/image/upload/v1571132500/reliable-rebrand_rcpof3.svg) no-repeat;"></div>
     <div class="bigbox"><h2> Secure</h2>
-      <p style="color: #767676;font-size: 12px;line-height: 17px;"> All products displayed on Tata 1mg are procured from verified and licensed pharmacies. All labs listed on the platform are accredited </p> 
+      <p style="color: #767676;font-size: 14px;line-height: 17px;"> All products displayed on Tata 1mg are procured from verified and licensed pharmacies. All labs listed on the platform are accredited </p> 
     </div>
 </div>
 <div class="box1">
     <div class="smallbox" style="background: url(https://res.cloudinary.com/du8msdgbj/image/upload/v1571131870/affordable-rebrand_ivgidq.svg) no-repeat;"></div>
     <div class="bigbox"><h2> Affordable</h2>
-      <p style="color: #767676;font-size: 12px;line-height: 17px;"> All products displayed on Tata 1mg are procured from verified and licensed pharmacies. All labs listed on the platform are accredited </p> 
+      <p style="color: #767676;font-size: 14px;line-height: 17px;"> All products displayed on Tata 1mg are procured from verified and licensed pharmacies. All labs listed on the platform are accredited </p> 
     </div>
 </div>
 </div>

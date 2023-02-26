@@ -6,7 +6,7 @@ window.addEventListener("load", function () {
   showSlides(slideIndex);
   myTimer = setInterval(function () {
     plusSlides(1);
-  }, 3000);
+  }, 2000);
 });
 
 function plusSlides(n) {
@@ -20,11 +20,11 @@ function plusSlides(n) {
   if (n === -1) {
     myTimer = setInterval(function () {
       plusSlides(n + 2);
-    }, 3000);
+    }, 2000);
   } else {
     myTimer = setInterval(function () {
       plusSlides(n + 1);
-    }, 3000);
+    }, 2000);
   }
 }
 
@@ -32,7 +32,7 @@ function currentSlide(n) {
   clearInterval(myTimer);
   myTimer = setInterval(function () {
     plusSlides(n + 1);
-  }, 3000);
+  }, 2000);
   showSlides((slideIndex = n));
 }
 
@@ -64,7 +64,7 @@ resume = () => {
   clearInterval(myTimer);
   myTimer = setInterval(function () {
     plusSlides(slideIndex);
-  }, 3000);
+  }, 2000);
 };
 
 var otp = 123456;
@@ -169,7 +169,7 @@ document.getElementById("done").addEventListener("click", function () {
     c.style.display = "none";
     d.style.display = "block";
     document.getElementById("wrong_otp").style.display = "none";
- // }
+//  }
 });
 
 document
@@ -224,14 +224,14 @@ document
         let data=await response.json();
         //console.log("data:",data);
         if(data==null){
-            alert('Registration failed, user already exists or enter valid 10 digit mobile or valid email');
+            alert('Registration failed, user already exists or Wrong Crediential');
             window.location.href="signup.html";
         }else{
             alert('Registration Successful,Please login')
             display();
         }
       }else{
-        alert('Registration failed, user already exists or enter valid 10 digit mobile or valid email')
+        alert('Registration failed, user already exists or Wrong Crediential')
         window.location.href="signup.html";
       }
       }catch(err){
@@ -267,7 +267,7 @@ document
        })
        let data=await response.json();
        if(data==null){
-           alert('login failed,email or password or mobile is wrong')
+           alert('login failed,Something is wrong')
            loginpage();
        }else{
            alert('login Successful')

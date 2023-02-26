@@ -1,6 +1,6 @@
 #main{
-    width: 85%;
-    height: 700px;
+    width: 75%;
+    height: 620px;
    
     margin: auto;
     display: grid;
@@ -12,6 +12,8 @@ body{
 #pro_info{
     background: white;
     margin-top: 30px;
+    /* border: 1px solid green; */
+    padding-left:8px;
 }
 #main>div{
 
@@ -52,6 +54,8 @@ border-radius:10% ;
    margin-top: 30px;
     border-radius:10px;
     background: white;
+    /* border: 1px solid green; */
+    padding: 10px 0px;
 }
 .price_head{
     font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;

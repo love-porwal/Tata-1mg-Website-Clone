@@ -3,7 +3,7 @@ function navbar() {
   <div class="header">
     <div class="header_first_row">
         <div class="header_first_row_first_section">
-            <div class="logo" onclick="window.location.href = 'index.html'"><img class="logo_image" src="/nxm/images/logo.jpg"></img></div>
+            <div class="logo" onclick="window.location.href = 'index.html'"><img class="logo_image" src="/images/logo.jpg"></img></div>
             <div class="text_inside_first_header_row" onclick="window.location.href = 'index.html'">MEDICINES</div>
             <div class="text_inside_first_header_row">LAB TESTS</div>
             <div class="text_inside_first_header_row" onclick="window.location.href = 'AskDoctor.html'">ASK DOCTOR</div>

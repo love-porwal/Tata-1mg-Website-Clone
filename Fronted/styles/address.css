@@ -12,9 +12,12 @@ body{
    padding-left: 2%;
    padding-right: 2%;
    height: 55px;
+   margin-top: 1px;
 }
 #mg_home{
     cursor: pointer;
+    width: 9%;
+    margin-top: 10px;
 }
 #need_help{
     cursor: pointer;
@@ -26,9 +29,10 @@ body{
 /* footer */
 #payment_footer{
  display: flex;
- width: 50%;
+ width: 60%;
  margin-left: 8%;
  margin-top: 30px;
+ 
 }
 #payment_footer>div{
  border-top: 1px solid darkgray;
@@ -41,7 +45,7 @@ body{
    width: 60%;
 }
 #payment_footer>div>p{
-   font-size: 11px;
+   font-size: 13px;
    color: lightslategray;
 }
 #payment_footer>div>p>span{
@@ -51,7 +55,7 @@ body{
 
 /* address form */
 #address_form{
-    width: 50%;
+    width: 60%;
     margin-left: 5%;
 }
 #address_form>h3{

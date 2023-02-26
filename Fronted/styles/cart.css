@@ -12,16 +12,20 @@ body{
  padding-left: 2%;
  padding-right: 2%;
  height: 55px;
+ margin-top: 2px;
 }
 #mg_home{
   cursor: pointer;
+  height: 55px;
 }
 #need_help{
   cursor: pointer;
+  font-size: 20px;
 }
 #payment_header>div>img:nth-child(2){
   margin-left: 30px;
   height: 60px;
+  cursor: pointer;
 }
 /* footer */
 
@@ -42,7 +46,7 @@ body{
     width: 60%;
  }
  #payment_footer>div>p{
-    font-size: 11px;
+    font-size: 14px;
     color: lightslategray;
  }
  #payment_footer>div>p>span{
@@ -53,6 +57,7 @@ body{
 
 #empty_img {
   width: 160px;
+  /* border: 1px solid black; */
 }
 #add_medicines {
   /* width: 150px; */

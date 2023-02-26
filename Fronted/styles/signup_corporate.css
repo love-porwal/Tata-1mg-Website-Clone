@@ -5,8 +5,9 @@ body {
   text-align: center;
 }
 #container > img {
-  background: #ff6f61;
-  padding: 5px 15px;
+  margin-top: 15px;
+  width: 6%;
+  margin-bottom: -40px;
 }
 #container > div {
   background-color: #ffffff;
@@ -41,6 +42,7 @@ body {
 }
 #bottom > img {
   height: 100%;
+ margin-bottom: 20px;
 }
 form > input {
   width: 100%;

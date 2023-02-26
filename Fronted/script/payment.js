@@ -32,7 +32,7 @@ document.querySelector("#card_payment_btn").addEventListener("click", () => {
     flag = false;
   }
   if (flag == true) {
-    alert("payment Successfull");
+    alert("Order Placed Successfully");
     window.location.href = "thank_you.html";
   }
 });

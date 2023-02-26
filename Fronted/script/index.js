@@ -80,7 +80,7 @@ async function multi(){
 async function multiple(){
   try{
       
-       let res= await fetch("http://localhost:2222/products?page=2&size=7")
+       let res= await fetch("http://localhost:2222/products")
 
        let data= await res.json();
         
