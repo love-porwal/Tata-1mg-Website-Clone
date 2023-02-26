@@ -62,7 +62,7 @@ let add_data;
         mobile:document.querySelector("#mobile").value,
        };
        add_data=JSON.stringify(add_data);
-       let api=`http://localhost:2222/address`
+       let api=`https://expensive-deer-pantsuit.cyclic.app/address`
        let response=await fetch(api,{
            method:'POST',
            body:add_data,

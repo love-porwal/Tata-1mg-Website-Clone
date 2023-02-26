@@ -213,7 +213,7 @@ document
        let mobile=document.querySelector("#mobile_number").value;
        let password=document.querySelector("#one_time_p").value;
       if(mobile.length==10&&password.length>=8){
-        let reg_api=`http://localhost:2222/register`
+        let reg_api=`https://expensive-deer-pantsuit.cyclic.app/register`
         let response=await fetch(reg_api,{
             method:'POST',
             body:register_data,
@@ -257,7 +257,7 @@ document
        };
        login_data=JSON.stringify(login_data);
        //console.log("login_data:",login_data);
-       let reg_api=`http://localhost:2222/register/login`
+       let reg_api=`https://expensive-deer-pantsuit.cyclic.app/register/login`
        let response=await fetch(reg_api,{
            method:'POST',
            body:login_data,
