@@ -149,7 +149,7 @@
     product();
     async function product(){
       try{
-          let res = await fetch("http://localhost:2222/products");
+          let res = await fetch("https://expensive-deer-pantsuit.cyclic.app/products");
           let data = await res.json();
           console.log(data);
       }catch(err){
@@ -173,7 +173,7 @@
         category:document.querySelector("#category").value,
         prd_highlight:document.querySelector("#prd_highlight").value
     }
-          let res = await fetch("http://localhost:2222/products",{
+          let res = await fetch("https://expensive-deer-pantsuit.cyclic.app/products",{
               method:"POST",
               body:JSON.stringify(prd_body),
               headers:{"Content-type":"application/json"}
@@ -190,7 +190,7 @@
    try{
     let id =document.getElementById('delete_id').value
 
-    let response =await fetch(`http://localhost:2222/products/${id}`,{
+    let response =await fetch(`https://expensive-deer-pantsuit.cyclic.app/products/${id}`,{
         method:"DELETE",
         headers:{
             "Content-Type":'application/json'
@@ -226,7 +226,7 @@
        
        let id =document.getElementById('u_id').value
 
-       let response = await fetch(`http://localhost:2222/products/${id}`,{
+       let response = await fetch(`https://expensive-deer-pantsuit.cyclic.app/products/${id}`,{
 
            method:'PATCH',
            body:data,
@@ -249,7 +249,7 @@ let box=document.querySelector("#display");
   async function display(){
      try{
 
-       let res=await fetch(`http://localhost:2222/products`);
+       let res=await fetch(`https://expensive-deer-pantsuit.cyclic.app/products`);
        let data=await res.json();
        append(data);
        console.log(data);

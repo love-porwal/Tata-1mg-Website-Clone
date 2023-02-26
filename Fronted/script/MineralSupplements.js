@@ -3,7 +3,7 @@ multi();
 async function multi(){
   try{
       
-       let res= await fetch("http://localhost:2222/products/MineralSupplements")
+       let res= await fetch("https://expensive-deer-pantsuit.cyclic.app/products/MineralSupplements")
 
        let data= await res.json();
        console.log(data)

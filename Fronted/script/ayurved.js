@@ -2,7 +2,7 @@ multi();
 async function multi(){
   try{
       
-       let res= await fetch("http://localhost:2222/products/ayurved")
+       let res= await fetch("https://expensive-deer-pantsuit.cyclic.app/products/ayurved")
 
        let data= await res.json();
       displaymg(data);
@@ -56,7 +56,7 @@ multinext();
 async function multinext(){
   try{
       
-       let res= await fetch("http://localhost:2222/products/ayurved")
+       let res= await fetch("https://expensive-deer-pantsuit.cyclic.app/products/ayurved")
 
        let data= await res.json();
        displaypre(data);

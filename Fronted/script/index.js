@@ -3,7 +3,7 @@ multiple();
 async function multi(){
   try{
       
-       let res= await fetch("http://localhost:2222/products?page=1&size=7")
+       let res= await fetch("https://expensive-deer-pantsuit.cyclic.app/products?page=1&size=7")
 
        let data= await res.json();
        
@@ -80,7 +80,7 @@ async function multi(){
 async function multiple(){
   try{
       
-       let res= await fetch("http://localhost:2222/products")
+       let res= await fetch("https://expensive-deer-pantsuit.cyclic.app/products")
 
        let data= await res.json();
         
